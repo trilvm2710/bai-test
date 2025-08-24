@@ -5,5 +5,8 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/bai-test/',
     buildAssetsDir: 'assets'
+  },
+  nitro: {
+    preset: 'github-pages',
   }
 })
